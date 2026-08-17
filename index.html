@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NaijaFilm House — Legal Movies</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0b0b0b;color:#fff;font-family:Arial,Helvetica,sans-serif}
+a{text-decoration:none;color:inherit}.top{background:#050505;padding:10px 5%;font-size:13px;color:#ddd}
+nav{display:flex;align-items:center;justify-content:space-between;padding:18px 5%;background:#111;border-bottom:1px solid #292929;position:sticky;top:0;z-index:5}
+.logo{font-size:28px;font-weight:800;color:#ffd21c}.logo span{color:#fff}
+.links{display:flex;gap:24px;align-items:center;font-size:14px;font-weight:700}.links a:hover{color:#ffd21c}
+.hero{min-height:460px;padding:90px 8%;display:flex;align-items:center;background:linear-gradient(90deg,#050505 25%,rgba(5,5,5,.75),rgba(5,5,5,.1)),linear-gradient(135deg,#3b2418,#111 55%,#30200e)}
+.hero small{color:#ffd21c;font-weight:bold;font-size:16px}.hero h1{font-size:58px;margin:15px 0}.hero p{max-width:540px;color:#ddd;line-height:1.7;font-size:17px}
+.btn{display:inline-block;padding:14px 24px;border-radius:5px;font-weight:bold;margin:8px 8px 0 0}.primary{background:#ffd21c;color:#111}.secondary{border:1px solid #777}
+.container{padding:35px 5%}.section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.section-title h2{font-size:24px}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}.card{background:#151515;border-radius:8px;overflow:hidden}.poster{height:250px;background:linear-gradient(145deg,#4a3025,#171717);display:flex;align-items:end;padding:15px;font-size:20px;font-weight:800}.card p{margin:10px 12px 14px;font-weight:bold}.card small{display:block;margin:-8px 12px 12px;color:#aaa}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;background:#141414;margin:0 5%;padding:25px;border-radius:10px}.feature{text-align:center}.feature b{display:block;color:#ffd21c;margin-bottom:8px}.search{background:#191919;border:1px solid #444;color:#fff;padding:10px 14px;border-radius:5px;width:190px}
+footer{margin-top:40px;padding:35px 5%;background:#050505;color:#aaa;text-align:center}
+@media(max-width:900px){.links{display:none}.grid{grid-template-columns:repeat(3,1fr)}.features{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:42px}}
+@media(max-width:550px){.grid{grid-template-columns:repeat(2,1fr)}.poster{height:210px}.features{grid-template-columns:1fr}.hero{padding:60px 7%}}
+</style>
+</head>
+<body>
+<div class="top">Welcome to NaijaFilm House — Watch & Download Legal Movies</div>
+<nav>
+  <div class="logo">Naija<span>Film</span> House</div>
+  <div class="links">
+    <a href="#">HOME</a><a href="#latest">LATEST MOVIES</a><a href="#nigerian">NIGERIAN MOVIES</a>
+    <a href="#watch">WATCH ONLINE</a><a href="#downloads">LEGAL DOWNLOADS</a><a href="#contact">CONTACT</a>
+  </div>
+  <input class="search" id="search" placeholder="Search movies...">
+</nav>
+
+<section class="hero">
+  <div>
+    <small>WELCOME TO NAIJAFILM HOUSE</small>
+    <h1>Your Home for African Movies</h1>
+    <p>Discover movies from Nigerian and African filmmakers. Watch online or download content that is legally available for distribution.</p>
+    <a class="btn primary" href="#latest">▶ WATCH MOVIES</a>
+    <a class="btn secondary" href="#downloads">⬇ LEGAL DOWNLOADS</a>
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature"><b>✓ LEGAL CONTENT</b><span>Movies you have rights to distribute.</span></div>
+  <div class="feature"><b>HD QUALITY</b><span>Enjoy a clean viewing experience.</span></div>
+  <div class="feature"><b>FAST ACCESS</b><span>Simple watch and download pages.</span></div>
+  <div class="feature"><b>MOBILE FRIENDLY</b><span>Works on phones and computers.</span></div>
+</section>
+
+<main class="container">
+<section id="latest">
+<div class="section-title"><h2>LATEST MOVIES</h2><span>VIEW ALL →</span></div>
+<div class="grid" id="movieGrid">
+  <article class="card" data-title="Breath of Life"><div class="poster">BREATH<br>OF LIFE</div><p>Breath of Life</p><small>Legal content</small></article>
+  <article class="card" data-title="Shadows"><div class="poster">SHADOWS</div><p>Shadows</p><small>Legal content</small></article>
+  <article class="card" data-title="Love in Lagos"><div class="poster">LOVE<br>IN LAGOS</div><p>Love in Lagos</p><small>Legal content</small></article>
+  <article class="card" data-title="Village Secrets"><div class="poster">VILLAGE<br>SECRETS</div><p>Village Secrets</p><small>Legal content</small></article>
+  <article class="card" data-title="A Mother's Prayer"><div class="poster">A MOTHER'S<br>PRAYER</div><p>A Mother's Prayer</p><small>Legal content</small></article>
+  <article class="card" data-title="The Return"><div class="poster">THE<br>RETURN</div><p>The Return</p><small>Legal content</small></article>
+</div>
+</section>
+
+<section id="nigerian" style="margin-top:45px">
+<div class="section-title"><h2>NIGERIAN MOVIES</h2><span>VIEW ALL →</span></div>
+<p style="color:#aaa">This section is ready for movies from filmmakers who have given NaijaFilm House permission to distribute their work.</p>
+</section>
+
+<section id="watch" style="margin-top:45px">
+<div class="section-title"><h2>WATCH ONLINE</h2></div>
+<p style="color:#aaa">Movie video players will be added here after you have legal video files or licensed streaming links.</p>
+</section>
+
+<section id="downloads" style="margin-top:45px">
+<div class="section-title"><h2>LEGAL DOWNLOADS</h2></div>
+<p style="color:#aaa">Download buttons should only point to movies you own or are licensed to distribute.</p>
+</section>
+</main>
+
+<footer id="contact">
+  <strong>NaijaFilm House</strong><br><br>
+  Legal movies • African filmmakers • Entertainment<br><br>
+  Contact: support@naijafilmhouse.com
+</footer>
+
+<script>
+const search=document.getElementById('search');
+search.addEventListener('input',()=>{
+  const q=search.value.toLowerCase();
+  document.querySelectorAll('.card').forEach(card=>{
+    card.style.display=card.dataset.title.toLowerCase().includes(q)?'block':'none';
+  });
+});
+</script>
+</body>
+</html>
